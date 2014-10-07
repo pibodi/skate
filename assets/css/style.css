@@ -97,7 +97,7 @@ nav li:last-child a {
 /* MEDIA QUERIES*/
 @media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
-    nav li a {
+    nav li a  p{
         font: 400 10px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
     }
 
@@ -107,7 +107,7 @@ only screen and (max-device-width : 1220px){
 }
 @media only screen and (max-width : 930px),
 only screen and (max-device-width : 930px){
-    nav li a {
+    nav li a  {
         width: 25%;
         border-bottom: 1px solid #fff;
         font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
@@ -123,7 +123,7 @@ only screen and (max-device-width : 930px){
 }
 @media only screen and (max-width : 580px),
 only screen and (max-device-width : 580px){
-    nav li a {
+    nav li a  {
         width: 50%;
         font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         padding-top: 12px;
@@ -145,3 +145,14 @@ only screen and (max-device-width : 320px){
         font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
     }
 }
+
+#text { background: #444;
+  padding: 30px;
+    border: 2px solid ;
+  border-top-left-radius: 17%;
+  border-top-right-radius: 17%;
+  border-bottom-right-radius: 17%;
+  border-bottom-left-radius: 17%;
+  font: 12pt bold "Helvetica";
+color: white;
+float: left}
