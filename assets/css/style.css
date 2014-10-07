@@ -12,9 +12,10 @@ body, html {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        width: 100%;
         min-height:100%;
+        background-position: 50% 0%, 50% 100%, 0% 0% ;
 }
+
 nav {
     width: 90%;
     margin: 50px auto;
@@ -31,12 +32,51 @@ nav li a {
     color: #fff;
     display: block;
     float: left;
-    font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     width: 12.5%;
+}
+
+/*SMALL*/
+nav small {
+    color: #aaa;
+    font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+    text-transform: none;
+
+}
+
+nav li a {
+    display: block;
+    float: left;
+    width: 12.5%;
+    padding: 10px;
+
+    background: #444;
+    border-right: 1px solid #fff;
+
+    color: #fff;
+    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li a {
+    background: #444;
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: block;
+    float: left;
+    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 12.5%;
+
     /*TRANSISTIONS*/
     -webkit-transition: background 0.5s ease;
        -moz-transition: background 0.5s ease;
@@ -47,39 +87,61 @@ nav li a {
 
 /*HOVER*/
 nav li a:hover {
-    text-decoration: none;
     background: #222;
 }
 
-
-
-/*SMALL*/
-nav small {
-    color: #fff;
-    font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
-    text-transform: none;
-  }
-  nav li a {
-    display: block;
-    float: left;
-    width: 12.5%;
-    padding: 10px;
-
-    background: #444;
-    border-right: 1px solid #fff;
-
-    color: #aaa;
-    font: 400 13px/1.4 ;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+nav li:last-child a {
+    border: none;
 }
 
-.center {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   margin-top: -50px;
-   margin-left: -100px;
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 1220px),
+only screen and (max-device-width : 1220px){
+    nav li a {
+        font: 400 10px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav small {
+        font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
+    }
+}
+@media only screen and (max-width : 930px),
+only screen and (max-device-width : 930px){
+    nav li a {
+        width: 25%;
+        border-bottom: 1px solid #fff;
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
+
+    nav li:last-child a, nav li:nth-child(4) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a, nav li:nth-child(7) a, nav li:nth-child(8) a {
+        border-bottom: none;
+    }
+}
+@media only screen and (max-width : 580px),
+only screen and (max-device-width : 580px){
+    nav li a {
+        width: 50%;
+        font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    nav li:nth-child(even) a {
+        border-right: none;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+    nav li a {
+        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+    }
 }
