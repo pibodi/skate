@@ -32,7 +32,7 @@ nav li a {
     color: #fff;
     display: block;
     float: left;
-    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+    font: 400 13px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -58,7 +58,7 @@ nav li a {
     border-right: 1px solid #fff;
 
     color: #fff;
-    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+    font: 400 13px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -70,12 +70,13 @@ nav li a {
     color: #fff;
     display: block;
     float: left;
-    font: 400 13px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
-    padding: 10px;
+    font: 400 13px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     width: 12.5%;
+
 
     /*TRANSISTIONS*/
     -webkit-transition: background 0.5s ease;
@@ -88,6 +89,7 @@ nav li a {
 /*HOVER*/
 nav li a:hover {
     background: #222;
+    text-decoration: none
 }
 
 nav li:last-child a {
@@ -99,6 +101,7 @@ nav li:last-child a {
 only screen and (max-device-width : 1220px){
     nav li a  p{
         font: 400 10px/1.4 'lobster', Helvetica, Verdana, Arial, sans-serif;
+
     }
 
     nav small {
@@ -110,7 +113,7 @@ only screen and (max-device-width : 930px){
     nav li a  {
         width: 25%;
         border-bottom: 1px solid #fff;
-        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        font: 400 11px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
     }
 
     nav li:last-child a, nav li:nth-child(4) a {
@@ -125,7 +128,7 @@ only screen and (max-device-width : 930px){
 only screen and (max-device-width : 580px){
     nav li a  {
         width: 50%;
-        font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        font: 400 12px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
         padding-top: 12px;
         padding-bottom: 12px;
     }
@@ -142,7 +145,7 @@ only screen and (max-device-width : 580px){
 @media only screen and (max-width : 320px),
 only screen and (max-device-width : 320px){
     nav li a {
-        font: 400 11px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        font: 400 11px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
     }
 }
 
@@ -153,6 +156,6 @@ only screen and (max-device-width : 320px){
   border-top-right-radius: 17%;
   border-bottom-right-radius: 17%;
   border-bottom-left-radius: 17%;
-  font: 12pt bold "Helvetica";
+  font: 12pt bold "arial";
 color: white;
 float: left}
