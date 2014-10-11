@@ -152,10 +152,10 @@ only screen and (max-device-width : 320px){
 #text { background: #444;
   padding: 30px;
     border: 2px solid ;
-  border-top-left-radius: 17%;
-  border-top-right-radius: 17%;
-  border-bottom-right-radius: 17%;
-  border-bottom-left-radius: 17%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
   font: 12pt bold "arial";
 color: white;
 float: left}
