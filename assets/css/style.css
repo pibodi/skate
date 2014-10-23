@@ -6,8 +6,8 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-body, html {
-        background: url('../images/rock1.jpg') no-repeat center center fixed;
+html {
+        background: #5E8ECC no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -16,6 +16,16 @@ body, html {
         background-position: 50% 0%, 50% 100%, 0% 0% ;
 }
 
+.header {
+  color: #00BFFF;
+  font-size: 50pt;
+  text-align:center;
+  padding-top:40px;
+  min-height: 50%;
+ }
+body {
+  background-color: rgba(255, 255, 255, 0);
+ }
 nav {
     width: 90%;
     margin: 50px auto;
@@ -26,19 +36,7 @@ nav ul {
     overflow: hidden;
 }
 
-nav li a {
-    background: #444;
-    border-right: 1px solid #fff;
-    color: #fff;
-    display: block;
-    float: left;
-    font: 400 13px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 12.5%;
-}
+
 
 /*SMALL*/
 nav small {
@@ -48,24 +46,10 @@ nav small {
 
 }
 
-nav li a {
-    display: block;
-    float: left;
-    width: 12.5%;
-    padding: 10px;
 
-    background: #444;
-    border-right: 1px solid #fff;
-
-    color: #fff;
-    font: 400 13px/1.4 'ledger', Helvetica, Verdana, Arial, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 nav li a {
-    background: #444;
+    background:#4682B4;
     border-right: 1px solid #fff;
     color: #fff;
     display: block;
@@ -149,13 +133,156 @@ only screen and (max-device-width : 320px){
     }
 }
 
-#text { background: #444;
-  padding: 30px;
+.container1
+{
+    width:%;
+
+    padding: px;
+    margin: 0 5%;
+    background: rgba(70,130,180, 0.8) ;
+    padding: 30px;
     border: 2px solid ;
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
-  border-bottom-right-radius: 2%;
-  border-bottom-left-radius: 2%;
-  font: 12pt bold "arial";
-color: white;
-float: left}
+    font: 13pt bold "arial";
+    color: white;
+    float: left;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:100%;
+    background-position: 50% 0%, 50% 100%, 0% 0% ;
+    }
+.container1 p { padding: 10px}
+.container1 h1 { margin-left: 0px}
+.container1 i { margin: 0px 10px 0 -30px; }
+
+.img1 {
+  float:right;
+  width:240px;
+  height:240px;
+  border: solid white;
+  }
+
+@-webkit-keyframes logo {
+	from {
+		-webkit-transform: rotate(0) scale(.5);
+		left:120%;
+	}
+	50% {
+		-webkit-transform: rotate(-720deg) scale(1);
+		left: 0;
+	}
+	to {
+		-webkit-transform:rotate(0) scale(1);
+	}
+}
+
+@-moz-keyframes logo {
+	from {
+		-webkit-transform: rotate(0) scale(.5);
+		left:120%;
+	}
+	50% {
+		-webkit-transform: rotate(-720deg) scale(1);
+		left: 0;
+	}
+	to {
+		-webkit-transform:rotate(0) scale(1);
+	}
+}
+
+@-o-keyframes logo {
+	from {
+		-webkit-transform: rotate(0) scale(.5);
+		left:120%;
+	}
+	50% {
+		-webkit-transform: rotate(-720deg) scale(1);
+		left: 0;
+	}
+	to {
+		-webkit-transform:rotate(0) scale(1);
+	}
+}
+
+@-keyframes logo {
+	from {
+		-webkit-transform: rotate(0) scale(.5);
+		left:120%;
+	}
+	50% {
+		-webkit-transform: rotate(-720deg) scale(1);
+		left: 0;
+	}
+	to {
+		-webkit-transform:rotate(0) scale(1);
+	}
+}
+.logo {
+	-webkit-animation: logo 3s;
+	-moz-animation: logo 3s;
+	-o-animation: logo 3s;
+	animation: logo 3s;
+}
+@-webkit-keyframes logo1 {
+  from {
+    -webkit-transform: rotate(0) scale(.001);
+    left:120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(1);
+    left: 0;
+  }
+  to {
+    -webkit-transform:rotate(0) scale(1);
+  }
+}
+
+@-moz-keyframes logo1 {
+  from {
+    -webkit-transform: rotate(0) scale(.001);
+    left:120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(1);
+    left: 0;
+  }
+  to {
+    -webkit-transform:rotate(0) scale(1);
+  }
+}
+
+@-o-keyframes logo1 {
+  from {
+    -webkit-transform: rotate(0) scale(.001);
+    left:120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(1);
+    left: 0;
+  }
+  to {
+    -webkit-transform:rotate(0) scale(1);
+  }
+}
+
+@-keyframes logo1 {
+  from {
+    -webkit-transform: rotate(0) scale(.001);
+    left:120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(1);
+    left: 0;
+  }
+  to {
+    -webkit-transform: rotate(0) scale(1);
+  }
+}
+.logo1 {
+  -webkit-animation: logo1 8s;
+  -moz-animation: logo1 8s;
+  -o-animation: logo1 8s;
+  animation: logo1 8s;
+}
